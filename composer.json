@@ -1,0 +1,21 @@
+{
+    "name": "php/app",
+    "description": "blog",
+    "autoload": {
+        "psr-4": {
+            "Php\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kris",
+            "email": "kristina-danilova1994@mail.ru"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.20",
+        "roave/security-advisories": "dev-latest",
+        "ext-pdo": "*",
+        "symfony/polyfill-uuid": "^1.26"
+    }
+}
